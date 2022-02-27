@@ -26,7 +26,7 @@ Resources:
   NodeJSRestAPI:
     Type: AWS::AppRunner::Service
     Properties:
-      ServiceName: !Sub RESTAPI-${Environment}nodejs
+      ServiceName: !Sub RESTAPI-${Environment}
       SourceConfiguration:
         AuthenticationConfiguration:
           ConnectionArn: "arn:aws:apprunner:us-east-2:864227929192:connection/DemoConnection/aaec8e02677441bb9c22343ca394dadb"
